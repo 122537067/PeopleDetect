@@ -95,6 +95,7 @@ namespace peoplePicture
 
         private void button_change_Click(object sender, EventArgs e)
         {
+            //解析JSON数据
             RootObject people = JsonConvert.DeserializeObject<RootObject>(textBox_token.Text);
 
             //获取值
